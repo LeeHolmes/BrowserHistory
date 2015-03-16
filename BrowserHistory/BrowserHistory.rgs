@@ -1,0 +1,20 @@
+HKCR
+{
+}
+HKLM {
+  NoRemove SOFTWARE {
+    NoRemove Microsoft {   
+      NoRemove Windows {
+        NoRemove CurrentVersion {
+          NoRemove Explorer {
+            NoRemove 'Browser Helper Objects' {
+              ForceRemove '{C3FEAD02-C2A9-4BFE-B545-B5A78E3E41FF}' = s 'BrowserHistory' {
+                val 'NoExplorer' = d '1'
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

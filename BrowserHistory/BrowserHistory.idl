@@ -1,0 +1,35 @@
+// BrowserHistory.idl : IDL source for BrowserHistory
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (BrowserHistory.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(064CF2A7-4DD0-40EB-A9D4-851DD6F17606),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface IBrowserHistory : IDispatch{
+};
+[
+	uuid(845B46BA-E292-427A-803C-AC7F9FFF75C9),
+	version(1.0),
+]
+library BrowserHistoryLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(C3FEAD02-C2A9-4BFE-B545-B5A78E3E41FF),
+		helpstring("BrowserHistory BHO Class")
+	]
+	coclass BrowserHistory
+	{
+		[default] interface IBrowserHistory;
+	};
+};
+

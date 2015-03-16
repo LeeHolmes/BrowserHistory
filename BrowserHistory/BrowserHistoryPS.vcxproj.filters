@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4ea6fff5-21eb-4c71-8265-99f7c68c3b1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{87caab67-f16d-478d-8633-ce221ede9a75}</UniqueIdentifier>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BrowserHistoryps.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BrowserHistory_i.c">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BrowserHistory_p.c">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dlldata.c">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

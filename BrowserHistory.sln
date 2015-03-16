@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BrowserHistory", "BrowserHistory\BrowserHistory.vcxproj", "{A97B8965-31E3-4100-9D31-2B1370B89F49}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BrowserHistoryPS", "BrowserHistory\BrowserHistoryPS.vcxproj", "{25B76AB8-7051-4359-960A-16F04D93D648}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A97B8965-31E3-4100-9D31-2B1370B89F49} = {A97B8965-31E3-4100-9D31-2B1370B89F49}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A97B8965-31E3-4100-9D31-2B1370B89F49}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A97B8965-31E3-4100-9D31-2B1370B89F49}.Debug|Win32.Build.0 = Debug|Win32
+		{A97B8965-31E3-4100-9D31-2B1370B89F49}.Release|Win32.ActiveCfg = Release|Win32
+		{A97B8965-31E3-4100-9D31-2B1370B89F49}.Release|Win32.Build.0 = Release|Win32
+		{25B76AB8-7051-4359-960A-16F04D93D648}.Debug|Win32.ActiveCfg = Debug|Win32
+		{25B76AB8-7051-4359-960A-16F04D93D648}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
